@@ -2,10 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class LoginScreen extends StatefulWidget {
-  LoginScreen({super.key, required this.name, required this.password});
-  //passing the paramters...
-  final String? name;
-  final String? password;
+  LoginScreen({
+    super.key,
+  });
+  // //passing the paramters...
+  // final String? name;
+  // final String? password;
   @override
   State<LoginScreen> createState() => _LoginScreenState();
 }
@@ -70,8 +72,8 @@ class _LoginScreenState extends State<LoginScreen> {
                             color: Colors.black,
                             fontWeight: FontWeight.bold),
                       ),
-                      Text(widget.name ?? ''),
-                      Text(widget.password ?? ''),
+                      // Text(widget.name ?? ''),
+                      // Text(widget.password ?? ''),
                     ],
                   ),
                 )

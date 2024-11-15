@@ -42,8 +42,8 @@ class _HomeScreenState extends State<HomeScreen> {
           context,
           MaterialPageRoute(
               builder: (context) => LoginScreen(
-                    name: userName,
-                    password: passWord,
+                  // name: userName,
+                  // password: passWord,
                   )));
     }
   }
